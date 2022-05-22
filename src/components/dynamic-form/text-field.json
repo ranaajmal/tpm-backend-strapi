@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dynamic_form_text_fields",
+  "info": {
+    "displayName": "TextField",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "dataType": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

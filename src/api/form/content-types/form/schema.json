@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "singularName": "form",
+    "pluralName": "forms",
+    "displayName": "Form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "employee": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::employee.employee"
+    },
+    "machine": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::machine.machine"
+    },
+    "fields": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamic-form.text-field",
+        "dynamic-form.boolean-field"
+      ]
+    }
+  }
+}
