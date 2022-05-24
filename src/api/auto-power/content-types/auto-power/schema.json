@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auto_powers",
+  "info": {
+    "singularName": "auto-power",
+    "pluralName": "auto-powers",
+    "displayName": "AutoPowerSchema",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "machine": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::machine.machine"
+    },
+    "parameters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "auto.auto-parameter"
+    }
+  }
+}

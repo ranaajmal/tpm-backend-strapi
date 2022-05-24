@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auto_production_logs",
+  "info": {
+    "singularName": "auto-production-log",
+    "pluralName": "auto-production-logs",
+    "displayName": "AutoProductionLog"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "machine": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::machine.machine"
+    },
+    "parameterName": {
+      "type": "string",
+      "required": true
+    },
+    "parameterValue": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

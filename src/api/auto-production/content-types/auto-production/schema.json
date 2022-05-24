@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auto_productions",
+  "info": {
+    "singularName": "auto-production",
+    "pluralName": "auto-productions",
+    "displayName": "AutoProductionSchema",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "machine": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::machine.machine"
+    },
+    "parameters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "auto.production-parameter"
+    }
+  }
+}

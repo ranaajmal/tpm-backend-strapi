@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parameters",
+  "info": {
+    "singularName": "parameter",
+    "pluralName": "parameters",
+    "displayName": "AutoPowerLog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "machine": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::machine.machine"
+    },
+    "parameterName": {
+      "type": "string",
+      "required": true
+    },
+    "parameterValue": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

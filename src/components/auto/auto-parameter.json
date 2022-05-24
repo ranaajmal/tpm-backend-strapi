@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_auto_auto_parameters",
+  "info": {
+    "displayName": "AutoParameter",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "dataType": {
+      "type": "enumeration",
+      "enum": [
+        "boolean",
+        "integer",
+        "float"
+      ],
+      "required": true
+    },
+    "notation": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "enumeration",
+      "enum": [
+        "KW",
+        "KVar",
+        "KV",
+        "V",
+        "A",
+        "Hz",
+        "KWH",
+        "KVarH",
+        "NA"
+      ],
+      "required": true
+    }
+  }
+}

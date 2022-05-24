@@ -14,10 +14,15 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "code": {
       "type": "uid"
+    },
+    "type": {
+      "type": "string",
+      "required": true
     }
   }
 }

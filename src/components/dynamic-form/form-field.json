@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_dynamic_form_form_fields",
+  "info": {
+    "displayName": "FormField",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "dataType": {
+      "type": "enumeration",
+      "enum": [
+        "boolean",
+        "text",
+        "number"
+      ],
+      "required": true
+    }
+  }
+}

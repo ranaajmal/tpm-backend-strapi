@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_logs",
+  "info": {
+    "singularName": "form-log",
+    "pluralName": "form-logs",
+    "displayName": "FormLog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "machine": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::machine.machine"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "allowed": {
+      "type": "boolean",
+      "default": false
+    },
+    "formTitle": {
+      "type": "string",
+      "required": true
+    },
+    "data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamic-form.field-data"
+    }
+  }
+}

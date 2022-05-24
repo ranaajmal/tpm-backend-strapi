@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_auto_production_parameters",
+  "info": {
+    "displayName": "ProductionParameter",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dataType": {
+      "type": "enumeration",
+      "enum": [
+        "boolean",
+        "integer",
+        "float"
+      ],
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "unit": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
