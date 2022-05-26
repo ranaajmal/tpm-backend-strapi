@@ -4,7 +4,8 @@
   "info": {
     "singularName": "auto-production-log",
     "pluralName": "auto-production-logs",
-    "displayName": "AutoProductionLog"
+    "displayName": "AutoProductionLog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -16,12 +17,10 @@
       "relation": "oneToOne",
       "target": "api::machine.machine"
     },
-    "parameterName": {
-      "type": "string",
-      "required": true
-    },
-    "parameterValue": {
-      "type": "string",
+    "LogData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "auto.auto-entry",
       "required": true
     }
   }

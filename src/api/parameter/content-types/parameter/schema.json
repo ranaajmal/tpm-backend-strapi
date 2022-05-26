@@ -17,12 +17,10 @@
       "relation": "oneToOne",
       "target": "api::machine.machine"
     },
-    "parameterName": {
-      "type": "string",
-      "required": true
-    },
-    "parameterValue": {
-      "type": "string",
+    "LogData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "auto.auto-entry",
       "required": true
     }
   }

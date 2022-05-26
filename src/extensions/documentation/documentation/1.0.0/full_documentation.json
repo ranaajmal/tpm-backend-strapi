@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-26T02:51:19.958Z"
+    "x-generation-date": "2022-05-26T16:03:51.021Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1915,11 +1915,19 @@
           "data": {
             "type": "object",
             "properties": {
-              "parameterName": {
-                "type": "string"
-              },
-              "parameterValue": {
-                "type": "string"
+              "LogData": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  }
+                }
               }
             }
           }
@@ -2261,11 +2269,22 @@
                         }
                       }
                     },
-                    "parameterName": {
-                      "type": "string"
-                    },
-                    "parameterValue": {
-                      "type": "string"
+                    "LogData": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "value": {
+                            "type": "string"
+                          }
+                        }
+                      }
                     },
                     "createdAt": {
                       "type": "string",
@@ -2673,11 +2692,22 @@
                       }
                     }
                   },
-                  "parameterName": {
-                    "type": "string"
-                  },
-                  "parameterValue": {
-                    "type": "string"
+                  "LogData": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": "string"
+                        }
+                      }
+                    }
                   },
                   "createdAt": {
                     "type": "string",
@@ -5711,11 +5741,19 @@
           "data": {
             "type": "object",
             "properties": {
-              "parameterName": {
-                "type": "string"
-              },
-              "parameterValue": {
-                "type": "string"
+              "LogData": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  }
+                }
               }
             }
           }
@@ -6057,11 +6095,22 @@
                         }
                       }
                     },
-                    "parameterName": {
-                      "type": "string"
-                    },
-                    "parameterValue": {
-                      "type": "string"
+                    "LogData": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "value": {
+                            "type": "string"
+                          }
+                        }
+                      }
                     },
                     "createdAt": {
                       "type": "string",
@@ -6469,11 +6518,22 @@
                       }
                     }
                   },
-                  "parameterName": {
-                    "type": "string"
-                  },
-                  "parameterValue": {
-                    "type": "string"
+                  "LogData": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": "string"
+                        }
+                      }
+                    }
                   },
                   "createdAt": {
                     "type": "string",
