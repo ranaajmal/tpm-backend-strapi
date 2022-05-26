@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-25T10:19:28.569Z"
+    "x-generation-date": "2022-05-26T02:41:00.275Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -180,10 +180,13 @@
                                 "name": {
                                   "type": "string"
                                 },
-                                "code": {
+                                "qrcode": {
                                   "type": "string"
                                 },
                                 "type": {
+                                  "type": "string"
+                                },
+                                "UUID": {
                                   "type": "string"
                                 },
                                 "createdAt": {
@@ -622,10 +625,13 @@
                               "name": {
                                 "type": "string"
                               },
-                              "code": {
+                              "qrcode": {
                                 "type": "string"
                               },
                               "type": {
+                                "type": "string"
+                              },
+                              "UUID": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -1088,10 +1094,13 @@
                                 "name": {
                                   "type": "string"
                                 },
-                                "code": {
+                                "qrcode": {
                                   "type": "string"
                                 },
                                 "type": {
+                                  "type": "string"
+                                },
+                                "UUID": {
                                   "type": "string"
                                 },
                                 "createdAt": {
@@ -1516,10 +1525,13 @@
                               "name": {
                                 "type": "string"
                               },
-                              "code": {
+                              "qrcode": {
                                 "type": "string"
                               },
                               "type": {
+                                "type": "string"
+                              },
+                              "UUID": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -1941,10 +1953,13 @@
                                 "name": {
                                   "type": "string"
                                 },
-                                "code": {
+                                "qrcode": {
                                   "type": "string"
                                 },
                                 "type": {
+                                  "type": "string"
+                                },
+                                "UUID": {
                                   "type": "string"
                                 },
                                 "createdAt": {
@@ -2350,10 +2365,13 @@
                               "name": {
                                 "type": "string"
                               },
-                              "code": {
+                              "qrcode": {
                                 "type": "string"
                               },
                               "type": {
+                                "type": "string"
+                              },
+                              "UUID": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -2720,6 +2738,9 @@
             "properties": {
               "formTitle": {
                 "type": "string"
+              },
+              "category": {
+                "type": "string"
               }
             }
           }
@@ -2753,10 +2774,13 @@
                                 "name": {
                                   "type": "string"
                                 },
-                                "code": {
+                                "qrcode": {
                                   "type": "string"
                                 },
                                 "type": {
+                                  "type": "string"
+                                },
+                                "UUID": {
                                   "type": "string"
                                 },
                                 "createdAt": {
@@ -3344,6 +3368,9 @@
                         }
                       }
                     },
+                    "category": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -3442,10 +3469,13 @@
                               "name": {
                                 "type": "string"
                               },
-                              "code": {
+                              "qrcode": {
                                 "type": "string"
                               },
                               "type": {
+                                "type": "string"
+                              },
+                              "UUID": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -4033,6 +4063,9 @@
                       }
                     }
                   },
+                  "category": {
+                    "type": "string"
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -4092,6 +4125,13 @@
             "properties": {
               "title": {
                 "type": "string"
+              },
+              "category": {
+                "type": "string",
+                "enum": [
+                  "Preventive",
+                  "Corrective"
+                ]
               }
             }
           }
@@ -4125,10 +4165,13 @@
                                 "name": {
                                   "type": "string"
                                 },
-                                "code": {
+                                "qrcode": {
                                   "type": "string"
                                 },
                                 "type": {
+                                  "type": "string"
+                                },
+                                "UUID": {
                                   "type": "string"
                                 },
                                 "createdAt": {
@@ -4455,6 +4498,13 @@
                     "title": {
                       "type": "string"
                     },
+                    "category": {
+                      "type": "string",
+                      "enum": [
+                        "Preventive",
+                        "Corrective"
+                      ]
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -4553,10 +4603,13 @@
                               "name": {
                                 "type": "string"
                               },
-                              "code": {
+                              "qrcode": {
                                 "type": "string"
                               },
                               "type": {
+                                "type": "string"
+                              },
+                              "UUID": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -4883,6 +4936,13 @@
                   "title": {
                     "type": "string"
                   },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "Preventive",
+                      "Corrective"
+                    ]
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -4966,10 +5026,13 @@
                     "name": {
                       "type": "string"
                     },
-                    "code": {
+                    "qrcode": {
                       "type": "string"
                     },
                     "type": {
+                      "type": "string"
+                    },
+                    "UUID": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -5309,10 +5372,13 @@
                   "name": {
                     "type": "string"
                   },
-                  "code": {
+                  "qrcode": {
                     "type": "string"
                   },
                   "type": {
+                    "type": "string"
+                  },
+                  "UUID": {
                     "type": "string"
                   },
                   "createdAt": {
@@ -5661,10 +5727,13 @@
                                 "name": {
                                   "type": "string"
                                 },
-                                "code": {
+                                "qrcode": {
                                   "type": "string"
                                 },
                                 "type": {
+                                  "type": "string"
+                                },
+                                "UUID": {
                                   "type": "string"
                                 },
                                 "createdAt": {
@@ -6070,10 +6139,13 @@
                               "name": {
                                 "type": "string"
                               },
-                              "code": {
+                              "qrcode": {
                                 "type": "string"
                               },
                               "type": {
+                                "type": "string"
+                              },
+                              "UUID": {
                                 "type": "string"
                               },
                               "createdAt": {

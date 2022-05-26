@@ -17,12 +17,15 @@
       "required": true,
       "unique": true
     },
-    "code": {
+    "qrcode": {
       "type": "uid"
     },
     "type": {
       "type": "string",
       "required": true
+    },
+    "UUID": {
+      "type": "string"
     }
   }
 }
