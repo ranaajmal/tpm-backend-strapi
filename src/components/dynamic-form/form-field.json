@@ -19,6 +19,15 @@
         "number"
       ],
       "required": true
+    },
+    "desiredBoolean": {
+      "type": "boolean"
+    },
+    "desiredMin": {
+      "type": "float"
+    },
+    "desiredMax": {
+      "type": "float"
     }
   }
 }
