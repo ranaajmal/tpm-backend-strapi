@@ -1,5 +1,5 @@
 {
-  "/parameters": {
+  "/auto-power-logs": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ParameterListResponse"
+                "$ref": "#/components/schemas/AutoPowerLogListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Parameter"
+        "Auto-power-log"
       ],
       "parameters": [
         {
@@ -148,7 +148,7 @@
           }
         }
       ],
-      "operationId": "get/parameters"
+      "operationId": "get/auto-power-logs"
     },
     "post": {
       "responses": {
@@ -157,7 +157,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ParameterResponse"
+                "$ref": "#/components/schemas/AutoPowerLogResponse"
               }
             }
           }
@@ -214,23 +214,23 @@
         }
       },
       "tags": [
-        "Parameter"
+        "Auto-power-log"
       ],
       "parameters": [],
-      "operationId": "post/parameters",
+      "operationId": "post/auto-power-logs",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/ParameterRequest"
+              "$ref": "#/components/schemas/AutoPowerLogRequest"
             }
           }
         }
       }
     }
   },
-  "/parameters/{id}": {
+  "/auto-power-logs/{id}": {
     "get": {
       "responses": {
         "200": {
@@ -238,7 +238,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ParameterResponse"
+                "$ref": "#/components/schemas/AutoPowerLogResponse"
               }
             }
           }
@@ -295,7 +295,7 @@
         }
       },
       "tags": [
-        "Parameter"
+        "Auto-power-log"
       ],
       "parameters": [
         {
@@ -309,7 +309,7 @@
           }
         }
       ],
-      "operationId": "get/parameters/{id}"
+      "operationId": "get/auto-power-logs/{id}"
     },
     "put": {
       "responses": {
@@ -318,7 +318,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ParameterResponse"
+                "$ref": "#/components/schemas/AutoPowerLogResponse"
               }
             }
           }
@@ -375,7 +375,7 @@
         }
       },
       "tags": [
-        "Parameter"
+        "Auto-power-log"
       ],
       "parameters": [
         {
@@ -389,13 +389,13 @@
           }
         }
       ],
-      "operationId": "put/parameters/{id}",
+      "operationId": "put/auto-power-logs/{id}",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/ParameterRequest"
+              "$ref": "#/components/schemas/AutoPowerLogRequest"
             }
           }
         }
@@ -466,7 +466,7 @@
         }
       },
       "tags": [
-        "Parameter"
+        "Auto-power-log"
       ],
       "parameters": [
         {
@@ -480,7 +480,7 @@
           }
         }
       ],
-      "operationId": "delete/parameters/{id}"
+      "operationId": "delete/auto-power-logs/{id}"
     }
   }
 }

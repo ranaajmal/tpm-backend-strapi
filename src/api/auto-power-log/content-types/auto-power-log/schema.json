@@ -1,9 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "parameters",
+  "collectionName": "auto_power_logs",
   "info": {
-    "singularName": "parameter",
-    "pluralName": "parameters",
+    "singularName": "auto-power-log",
+    "pluralName": "auto-power-logs",
     "displayName": "AutoPowerLog",
     "description": ""
   },
