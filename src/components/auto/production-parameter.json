@@ -23,6 +23,19 @@
     "unit": {
       "type": "string",
       "required": false
+    },
+    "type": {
+      "type": "string",
+      "required": false
+    },
+    "desiredBoolean": {
+      "type": "string"
+    },
+    "desiredMin": {
+      "type": "string"
+    },
+    "desiredMax": {
+      "type": "string"
     }
   }
 }

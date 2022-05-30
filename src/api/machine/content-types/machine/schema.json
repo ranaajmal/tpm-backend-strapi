@@ -26,6 +26,10 @@
     },
     "UUID": {
       "type": "string"
+    },
+    "state": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

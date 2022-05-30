@@ -16,7 +16,8 @@
       "enum": [
         "boolean",
         "text",
-        "number"
+        "number",
+        "date"
       ],
       "required": true
     },

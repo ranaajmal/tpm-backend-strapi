@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-27T02:14:23.299Z"
+    "x-generation-date": "2022-05-30T13:00:56.149Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -144,6 +144,25 @@
                         "KVarH",
                         "NA"
                       ]
+                    },
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "voltage",
+                        "power",
+                        "current",
+                        "energy",
+                        "frequency"
+                      ]
+                    },
+                    "desiredBoolean": {
+                      "type": "string"
+                    },
+                    "desiredMin": {
+                      "type": "string"
+                    },
+                    "desiredMax": {
+                      "type": "string"
                     }
                   }
                 }
@@ -188,6 +207,9 @@
                                 },
                                 "UUID": {
                                   "type": "string"
+                                },
+                                "state": {
+                                  "type": "boolean"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -523,6 +545,25 @@
                               "KVarH",
                               "NA"
                             ]
+                          },
+                          "type": {
+                            "type": "string",
+                            "enum": [
+                              "voltage",
+                              "power",
+                              "current",
+                              "energy",
+                              "frequency"
+                            ]
+                          },
+                          "desiredBoolean": {
+                            "type": "string"
+                          },
+                          "desiredMin": {
+                            "type": "string"
+                          },
+                          "desiredMax": {
+                            "type": "string"
                           }
                         }
                       }
@@ -633,6 +674,9 @@
                               },
                               "UUID": {
                                 "type": "string"
+                              },
+                              "state": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -968,6 +1012,25 @@
                             "KVarH",
                             "NA"
                           ]
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "voltage",
+                            "power",
+                            "current",
+                            "energy",
+                            "frequency"
+                          ]
+                        },
+                        "desiredBoolean": {
+                          "type": "string"
+                        },
+                        "desiredMin": {
+                          "type": "string"
+                        },
+                        "desiredMax": {
+                          "type": "string"
                         }
                       }
                     }
@@ -1083,6 +1146,9 @@
                                 },
                                 "UUID": {
                                   "type": "string"
+                                },
+                                "state": {
+                                  "type": "boolean"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -1507,6 +1573,9 @@
                               "UUID": {
                                 "type": "string"
                               },
+                              "state": {
+                                "type": "boolean"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1909,6 +1978,18 @@
                     },
                     "unit": {
                       "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "desiredBoolean": {
+                      "type": "string"
+                    },
+                    "desiredMin": {
+                      "type": "string"
+                    },
+                    "desiredMax": {
+                      "type": "string"
                     }
                   }
                 }
@@ -1953,6 +2034,9 @@
                                 },
                                 "UUID": {
                                   "type": "string"
+                                },
+                                "state": {
+                                  "type": "boolean"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -2274,6 +2358,18 @@
                           },
                           "unit": {
                             "type": "string"
+                          },
+                          "type": {
+                            "type": "string"
+                          },
+                          "desiredBoolean": {
+                            "type": "string"
+                          },
+                          "desiredMin": {
+                            "type": "string"
+                          },
+                          "desiredMax": {
+                            "type": "string"
                           }
                         }
                       }
@@ -2384,6 +2480,9 @@
                               },
                               "UUID": {
                                 "type": "string"
+                              },
+                              "state": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -2705,6 +2804,18 @@
                         },
                         "unit": {
                           "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "desiredBoolean": {
+                          "type": "string"
+                        },
+                        "desiredMin": {
+                          "type": "string"
+                        },
+                        "desiredMax": {
+                          "type": "string"
                         }
                       }
                     }
@@ -2820,6 +2931,9 @@
                                 },
                                 "UUID": {
                                   "type": "string"
+                                },
+                                "state": {
+                                  "type": "boolean"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -3244,6 +3358,9 @@
                               "UUID": {
                                 "type": "string"
                               },
+                              "state": {
+                                "type": "boolean"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -3663,6 +3780,9 @@
                                 },
                                 "UUID": {
                                   "type": "string"
+                                },
+                                "state": {
+                                  "type": "boolean"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -4358,6 +4478,9 @@
                               },
                               "UUID": {
                                 "type": "string"
+                              },
+                              "state": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -5055,6 +5178,9 @@
                                 "UUID": {
                                   "type": "string"
                                 },
+                                "state": {
+                                  "type": "boolean"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -5370,7 +5496,8 @@
                             "enum": [
                               "boolean",
                               "text",
-                              "number"
+                              "number",
+                              "date"
                             ]
                           },
                           "desiredBoolean": {
@@ -5503,6 +5630,9 @@
                               },
                               "UUID": {
                                 "type": "string"
+                              },
+                              "state": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -5819,7 +5949,8 @@
                           "enum": [
                             "boolean",
                             "text",
-                            "number"
+                            "number",
+                            "date"
                           ]
                         },
                         "desiredBoolean": {
@@ -5937,6 +6068,9 @@
                     },
                     "UUID": {
                       "type": "string"
+                    },
+                    "state": {
+                      "type": "boolean"
                     },
                     "createdAt": {
                       "type": "string",
@@ -6283,6 +6417,9 @@
                   },
                   "UUID": {
                     "type": "string"
+                  },
+                  "state": {
+                    "type": "boolean"
                   },
                   "createdAt": {
                     "type": "string",

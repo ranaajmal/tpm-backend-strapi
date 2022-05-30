@@ -37,6 +37,25 @@
         "NA"
       ],
       "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "voltage",
+        "power",
+        "current",
+        "energy",
+        "frequency"
+      ]
+    },
+    "desiredBoolean": {
+      "type": "string"
+    },
+    "desiredMin": {
+      "type": "string"
+    },
+    "desiredMax": {
+      "type": "string"
     }
   }
 }
