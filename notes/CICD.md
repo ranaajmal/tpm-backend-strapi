@@ -1,6 +1,6 @@
 # CICD
 git add .
-git commit -m "first commit"
+git commit -m ""
 git push origin master
 git push heroku master
 
@@ -16,9 +16,10 @@ git commit -m ""
 git push heroku master
 # #########################################################
 # Github:
-git init
 git add README.md
-git commit -m "first commit"
+git commit -m ""
 git branch -M master
+
+# Heroku:
 git remote add origin https://github.com/ranaajmal/api4students-strapi-backend.git
 git push -u origin master
