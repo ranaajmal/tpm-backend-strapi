@@ -36,8 +36,13 @@
       "component": "dynamic-form.field-data"
     },
     "category": {
-      "type": "string",
-      "required": true
+      "type": "enumeration",
+      "enum": [
+        "Preventive",
+        "Corrective"
+      ],
+      "required": true,
+      "default": "Preventive"
     }
   }
 }
