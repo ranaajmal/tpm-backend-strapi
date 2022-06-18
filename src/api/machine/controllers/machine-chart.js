@@ -1,7 +1,6 @@
-// http://localhost:1337/api/chart/machine/1/limit/60
+// http://localhost:1337/api/machine-chart/machine/1/limit/60
 module.exports = {
-  async machineAutoLogsAdapter(ctx, next) {
-        
+  async machineChartAdapter(ctx, next) {
     
     const { id, limit = 60 } = ctx.params;
     
